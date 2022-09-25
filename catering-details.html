@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Baratha Ceremony</title>
+   <!--  -->
+   <link rel="stylesheet" href="style.css">
+   
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+   <!-- fontawesome -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+   <!-- Bootstrap5 CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Fontawesome CSS -->
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+   <!-- OWL CSS -->
+   <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+   <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+</head>
+
+<body>
+   <Header style="position: fixed;top: 0;z-index: 1000;padding: 0;">
+      <div class="menu-toggle" id="hamburger">
+         <i class="fas fa-bars"></i>
+      </div>
+      <div class="overlay"></div>
+      <div class="container">
+         <nav>
+            <a href="#">
+               <img class="brand" src="./Images/logo.svg" alt="">
+            </a>
+            <ul style="margin-bottom: 0px;">
+               <li class="list-item"><a class="list-item-inner" href="index.html">Home</a></li>
+               <li class="list-item"><a class="list-item-inner" href="about.html">About</a></li>
+               <li class="list-item"><a class="list-item-inner active" href="services.html">Service</a></li>
+               <li class="list-item"><a class="list-item-inner" href="contact.html">Contact</a></li>
+               <li class="list-item"><a class="list-item-booking" href="book_event.html">Book an event</a></li>
+            </ul>
+         </nav>
+      </div>
+   </Header>
+   <main>
+
+
+
+      <div class="detail-page-breadcrumb-banner container-fluid"
+         style="background-image: url(images/catering-details-breadcrumb-banner.jpg);">
+         <div class="breadcrumb-wrapper">
+            <h2>Happy Helpers Caterers</h2>
+            <hr>
+            <div class="breadcrumb-link">
+               <a href="index.html">Home</a>
+               <i class="fas fa-chevron-right"></i>
+               <a href="services.html">Services</a>
+               <i class="fas fa-chevron-right"></i>
+               <a href="catering.html">Catering</a>
+               <i class="fas fa-chevron-right"></i>
+               <a href="catering-details.html">Happy Helpers Caterers</a>
+            </div>
+         </div>
+
+         <div class="container item-details-page">
+            <div class="item-details-page-wrapper bg-white">
+               <div class="row">
+                  <div class="col-md-6 item-details-left">
+                     <h4>Address</h4>
+                     <div class="d-flex">
+                        <i class="adrs-icon fas fa-map-marker-alt"></i>
+                        <p>
+                           Akshya Nagar <br>
+                           1st Block 1st Cross,<br>
+                           Rammurthy nagar,<br>
+                           Bangalore-560016
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-md-6 item-details-right">
+                     <h4>Contact</h4>
+                     <div class="d-flex">
+                        <i class="adrs-icon fas fa-phone-alt"></i>
+                        <p>9999 567 567</p>
+                     </div>
+                     <div class="d-flex">
+                        <i class="adrs-icon fas fa-phone-alt"></i>
+                        <p>9999 567 567</p>
+                     </div>
+                     <div class="d-flex">
+                        <i class="adrs-icon fas fa-envelope"></i>
+                        <p>9999 567 567</p>
+                     </div>
+
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="d-flex justify-content-center">
+                     <a href="Catering-package-form.html" class="btn package-link-btn">Book Now</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="item-details-gallery">
+         <div class="container">
+            <div class="owl-carousel carousel-3 owl-theme">
+               <div class="item">
+                  <img class="img-fluid" src="./Images/catering/catering-details-gallery.jpg" alt="">
+               </div>
+               <div class="item">
+                  <img class="img-fluid" src="./Images/catering/catering-details-gallery.jpg" alt="">
+               </div>
+               <div class="item">
+                  <img class="img-fluid" src="./Images/catering/catering-details-gallery.jpg" alt="">
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="gap-70"></div>
+
+
+
+      <!-- Section 2 -->
+      <div class="section-2 most-popular-services">
+         <div class="container camera-available">
+            <div class="page-title">
+               <h5>Available Packages</h5>
+            </div>
+            <div class="gap-50"></div>
+
+            <div class="services-wrapper">
+               <div class="row">
+                  <div class="col-md-4">
+                     <div class="services-card package-card mb-5">
+                        <img src="Images/catering/Outdoor-Catering .jpg" alt="">
+                        <div class="services-card-content">
+                           <h3>Outdoor Catering</h3>
+                           <p>
+                              <strong>The Flavors of America</strong><br />
+                              Price - 8200 <span>&nbsp;&nbsp;&nbsp;</span> 20% Discount <br>
+                           </p>
+                           <h5 class="price">Rs. <span>6800</span>/-</h5>
+                           <a type="button" class="btn price-btn-book btn-sm" data-bs-toggle="modal"
+                              data-bs-target="#exampleModal-2">
+                              Book Now
+                           </a>
+                           <!-- <a href="" class="btn price-btn-book btn-sm">Book Now</a> -->
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="services-card package-card mb-5">
+                        <img src="Images/catering/Indoor-Catering.jpg" alt="">
+                        <div class="services-card-content">
+                           <h3>Indoor Catering</h3>
+                           <p>
+                              <strong>Happy Helpers Caterers</strong><br />
+                              Price - 8200 <span>&nbsp;&nbsp;&nbsp;</span> Offer - 20% Discount <br>
+                           </p>
+                           <h5 class="price">Rs. <span>6800</span>/-</h5>
+                           <a type="button" class="btn price-btn-book btn-sm" data-bs-toggle="modal"
+                              data-bs-target="#exampleModal-2">
+                              Book Now
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="services-card package-card mb-5">
+                        <img src="Images/catering/Vagitable-Catering.jpg" alt="">
+                        <div class="services-card-content">
+                           <h3>Vagetable Catering</h3>
+                           <p>
+                              <strong>Season to Taste Catering</strong><br />
+                              Price - 8200 <span>&nbsp;&nbsp;&nbsp;</span> Offer - 20% Discount <br>
+                           </p>
+                           <h5 class="price">Rs. <span>6800</span>/-</h5>
+                           <a type="button" class="btn price-btn-book btn-sm" data-bs-toggle="modal"
+                              data-bs-target="#exampleModal-2">
+                              Book Now
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="services-card package-card mb-5">
+                        <img src="Images/catering/Non-Vagitable-Catering.jpg" alt="">
+                        <div class="services-card-content">
+                           <h3>Non Vagetable Catering</h3>
+                           <p>
+                              <strong>Happy Fingers Catering Service</strong><br />
+                              Price - 8200 <span>&nbsp;&nbsp;&nbsp;</span> Offer - 20% Discount <br>
+                           </p>
+                           <h5 class="price">Rs. <span>6800</span>/-</h5>
+                           <a type="button" class="btn price-btn-book btn-sm" data-bs-toggle="modal"
+                              data-bs-target="#exampleModal-2">
+                              Book Now
+                           </a>
+                           <!-- <a href="" class="btn price-btn-book btn-sm">Book Now</a> -->
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal-2" tabindex="-1" aria-labelledby="exampleModal-2Label"
+               aria-hidden="true">
+               <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                     <div class="modal-body">
+                        <h5 class="modal-title text-center">Outdoor Catering<div class="modal-body">
+                              <form action="" class="pb-3 pt-3">
+
+                                 <div class="mb-3">
+                                    <label class="form-label">Number of Persons</label>
+                                    <input type="number" class="form-control" placeholder="No of Persons, Example 3000">
+                                 </div>
+                                 <div style="padding-left: 10px;padding-top: 5px;">
+                                    <div class="form-check mb-3">
+                                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"
+                                          checked>
+                                       <label class="form-check-label" for="flexCheckDefault">
+                                          Vegetarian food
+                                       </label>
+                                    </div>
+                                    <div class="form-check mb-3">
+                                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                       <label class="form-check-label" for="flexCheckDefault">
+                                          Non Vegetarian food
+                                       </label>
+                                    </div>
+                                 </div>
+                                 <div class="mb-3">
+                                    <label class="form-label">Date</label>
+                                    <input type="date" class="form-control" placeholder="dd-mm-yyyy">
+                                 </div>
+                                 <div class="row">
+                                    <div class="d-flex justify-content-center mt-3">
+                                       <button type="submit" class="btn  modal-submit-btn">Submit</button>
+                                       <button type="button" class="btn  modal-cancel-btn" data-bs-dismiss="modal"
+                                          aria-label="Close">Cancel</button>
+                                    </div>
+                                 </div>
+                              </form>
+                           </div>
+                     </div>
+                  </div>
+               </div>
+
+
+            </div>
+         </div>
+
+
+   </main>
+   <div class="gap-100"></div>
+   <Footer class="footer">
+      <div class="container">
+         <div class="footer-wrapper">
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="footer-left">
+                     <img class="footer-logo" src="images/logo.svg" alt="">
+                     <p>Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Ultricies vel volutpat facilisi
+                        enim. Amet, feugiat pellentesque
+                     </p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="footer-middle d-grid">
+                     <a href="#">Home</a>
+                     <a href="#">About Us</a>
+                     <a href="#">Book Now</a>
+                     <a href="#">Contact Us</a>
+                     <a href="#">Report Issues</a>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="footer-right">
+                     <span><i class="far fa-phone"></i>&nbsp;&nbsp;<a href="tel:+91 9998 568 932">+91 9998 568
+                           932</a></span><br>
+                     <span><i class="fab fa-whatsapp"></i>&nbsp;&nbsp;<a href="tel:+91 9998 568 932">+91 9998 568
+                           932</a></span><br>
+                     <span><i class="far fa-envelope"></i>&nbsp;&nbsp;<a
+                           href="mailto:barathceremony@email.com">barathceremony@email.com</a></span><br>
+                     <div class="social animation-left">
+                        <div class="d-flex">
+                           <a href=""><i class="fab fa-instagram"></i></a>
+                           <a href=""><i class="fab fa-linkedin"></i></a>
+                           <a href=""><i class="fab fa-facebook-square"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="copyright text-center animation-bottom">
+         <p>© 2022 BarathaCeremony | All Rights Reserved</p>
+         
+      </div>
+   </Footer>
+   
+   
+   <a href="#" class="scrollToTop"><i class="fad fa-arrow-alt-to-top"></i></a>
+   <script src="./nav.js"></script>
+   <!-- Bootstrap5 JS -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+   <!-- OWL JS -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+   <script src="./carousel.js"></script>
+</body>
+
+</html>

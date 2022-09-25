@@ -1,0 +1,71 @@
+.modal-content .modal-title {
+                  margin-top: 10px;
+                  margin-bottom: 0px;
+                  color: #5f5f5f;
+                  font-size: 1.5rem;
+               }
+
+               .modal-content .modal-body {
+                  text-align: left;
+                  color: #5f5f5f;
+                  font-size: 1rem;
+                  font-weight: 400;
+               }
+
+               .modal-content form .form-label {
+                  text-align: left;
+                  color: #5f5f5f;
+                  font-size: 1rem;
+                  font-weight: 400;
+                  margin-top: 4px;
+                  padding-left: 2px;
+               }
+
+               .modal-content form .form-control:focus {
+                  box-shadow: none;
+               }
+
+               .modal-content form .modal-submit-btn {
+                  background: #FF8A00;
+                  color: white;
+                  margin-right: 10px;
+                  padding-right: 28px;
+                  padding-left: 28px;
+                  border-radius: 20px;
+                  transition: .2s ease-in-out;
+               }
+
+               .modal-content form .modal-cancel-btn {
+                  border: 1.5px solid #FF8A00;
+                  color: #FF8A00;
+                  padding-right: 28px;
+                  padding-left: 28px;
+                  border-radius: 20px;
+                  transition: .2s ease-in-out;
+               }
+
+               .modal-content form .modal-submit-btn:hover {
+                  background: #ff7300;
+                  color: white;
+                  margin-right: 10px;
+                  padding-right: 28px;
+                  padding-left: 28px;
+                  border-radius: 20px;
+               }
+
+               .modal-content form .modal-cancel-btn:hover {
+                  background-color: #FF8A00;
+                  color: white;
+               }
+
+               .modal-content .form-check .form-check-input{
+                  border-color: #5f5f5f;
+               }
+               .modal-content .form-check .form-check-input:checked {
+                  background-color: #5f5f5f;
+                  border-color: #5f5f5f;
+               }
+
+               .modal-content .form-check .form-check-input:focus {
+                  box-shadow: none;
+               }

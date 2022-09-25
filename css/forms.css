@@ -1,0 +1,322 @@
+/* Book an event */
+
+.booking-event {
+  padding-top: 180px;
+}
+.booking-event .booking-banner {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.booking-event .booking-banner h3 {
+  font-family: var(--font-secondary);
+  font-style: italic;
+  font-weight: 800;
+  font-size: clamp(2rem, 1.9rem + 0.5vw, 2.5rem);
+  color: var(--font-color);
+  text-align: center;
+  color: #ffffff;
+  max-width: 400px;
+}
+
+.booking-event .booking-submit-btn {
+  background-color: var(--primary);
+  padding-left: 32px;
+  padding-right: 32px;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 20px;
+  transition: 0.2s ease-in-out;
+}
+
+.booking-event .booking-submit-btn:hover {
+  background-color: #ff7b00;
+  color: #ffffff;
+  font-weight: 600;
+}
+.mobile-title {
+  display: none;
+}
+@media (max-width: 754px) {
+  .booking-event .booking-banner {
+    width: 100%;
+    height: 45vh;
+  }
+  .booking-event {
+    padding-top: 0px;
+  }
+  .booking-event .booking-form {
+    padding-bottom: 2rem;
+  }
+  .booking-event .mobile-title {
+    padding-top: 3rem !important;
+    padding-bottom: 2rem !important;
+  }
+  .mobile-title {
+    display: block;
+  }
+}
+
+/* Login / create account/ signin */
+
+.create-account {
+  background-color: #efefef;
+}
+
+.create-account .create-account-logo {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+}
+
+.create-account .left-div {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.create-account .main-title {
+  font-family: var(--font-secondary);
+  font-style: italic;
+  font-weight: 700;
+  /* font-size: 40px; */
+  font-size: clamp(2rem, 1.9rem + 0.5vw, 2.5rem);
+  color: var(--font-color);
+}
+
+.create-account .sub-title {
+  font-family: var(--font-secondary);
+  font-style: italic;
+  font-weight: 600;
+  /* font-size: 28px; */
+  font-size: clamp(1.25rem, 1.125rem + 0.625vw, 1.75rem);
+  color: var(--font-color);
+}
+
+.create-account h5 {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  /* font-size: 22px; */
+  font-size: clamp(1rem, 0.90625rem + 0.46875000000000006vw, 1.375rem);
+  color: #b75800;
+  margin-bottom: 25px;
+}
+
+.create-account .create-account-btn {
+  background: var(--primary);
+  border: 1px solid #f29400;
+  border-radius: 50px;
+  color: white;
+  font-size: clamp(1rem, 0.96875rem + 0.15625vw, 1.125rem);
+  padding-left: 25px;
+  padding-right: 25px;
+  transition: 0.2s ease-in-out;
+}
+.create-account .create-account-btn:hover {
+  background: #ec5e00;
+  border: 1px solid #f29400;
+  border-radius: 50px;
+  color: white;
+}
+
+.create-account .right-div .create-account-form {
+  max-width: 380px;
+  width: 100%;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 20px;
+}
+.create-account .right-div .create-account-form {
+  max-width: 380px;
+  width: 100%;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 20px;
+}
+.create-account .right-div .create-account-form h3 {
+  margin-top: 50px;
+  font-family: var(--font-primary);
+  font-weight: 600;
+  color: var(--primary);
+  /* font-size: 28px; */
+  font-size: clamp(1.25rem, 1.125rem + 0.625vw, 1.75rem);
+}
+.create-account .right-div .create-account-form .form-control {
+  border: 1px solid #9d9d9d;
+  border-radius: 50px;
+  background-color: white;
+  color: #4a4a4a;
+}
+.create-account .right-div .create-account-form .create-account-form-submit {
+  background: var(--primary);
+  border: 1px solid #f29400;
+  border-radius: 50px;
+  color: white;
+  font-size: clamp(1rem, 0.96875rem + 0.15625vw, 1.125rem);
+}
+.create-account
+  .right-div
+  .create-account-form
+  .create-account-form-submit:hover {
+  background: #ec5e00;
+}
+
+.right-div .forget-pswd {
+  margin-left: 10px;
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 600;
+  margin-top: 4px;
+  transition: 0.2s ease-in-out;
+}
+.right-div .forget-pswd:hover {
+  text-decoration: underline;
+  color: var(--primary);
+}
+
+.create-account-form .create-account-form-label {
+  font-size: 14px;
+  color: var(--font-color);
+}
+.otp-input input[type="number"]::-webkit-inner-spin-button,
+.otp-input input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+#otp .form-control:focus {
+  box-shadow: none;
+  border: 2px solid var(--primary);
+}
+.otp-input .inputs input {
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.otp-label {
+  font-weight: 500;
+  font-size: 14px;
+  text-align: left;
+  color: #565656;
+}
+
+@media (max-width: 762px) {
+  .create-account .right-div {
+    margin-top: 30px;
+  }
+  .create-account .left-div {
+    padding: 30px 0px;
+  }
+  .create-account .create-account-content {
+    margin-top: 20px;
+  }
+  .create-account h5 {
+    margin-bottom: 10px;
+  }
+  .create-account .left-div {
+    border-radius: 0px;
+  }
+  .create-account-form form {
+    margin: 30px;
+  }
+}
+
+/* Search box  */
+
+.search-wrapper {
+  background: white;
+  border-right: none;
+}
+
+.search-wrapper .input-group-text {
+  background: transparent;
+  border-right: none;
+}
+
+.search-wrapper .form-search-box {
+  border-left: none;
+}
+
+.search-wrapper .form-control:focus {
+  box-shadow: none;
+}
+
+.search-wrapper .search-inner {
+  height: 280px;
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-wrapper .search-inner .search-title h3 {
+  text-align: left;
+  font-size: 22px;
+  display: inline-block;
+  padding-bottom: 5px;
+  color: #5f5f5f;
+  border-bottom: 4px solid var(--primary);
+}
+
+.search-wrapper .search-inner .search-title p {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 8px;
+  line-height: 28px;
+}
+
+.search-wrapper .search-box .input-group-text {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 1px solid #ced4da;
+  border-right: none;
+  color: #5f5f5f;
+  padding-right: 0px;
+}
+
+.search-wrapper .search-box .form-search-box {
+  width: 300px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px solid #ced4da;
+  border-left: none;
+  color: #5f5f5f;
+}
+
+@media (max-width: 992px) {
+  .search-wrapper .search-inner .search-title,
+  .search-wrapper .search-inner .search-title p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .search-wrapper .search-inner {
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+  }
+  .search-wrapper form .input-group {
+    flex-wrap: nowrap;
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 550px) {
+  .search-wrapper .search-inner {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+}

@@ -1,0 +1,133 @@
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+  width: 100%;
+  margin: 1px;
+}
+
+.calendar-wrapper {
+  padding: 25px;
+}
+
+.calendar-wrapper .day .day-title {
+  position: relative;
+  width: 100%;
+  background-color: #426c8b;
+}
+
+.calendar-wrapper .day .day-title h3 {
+  margin: 0;
+  padding: 5px;
+  color: white;
+}
+
+.calendar-wrapper .date {
+  position: relative;
+}
+
+.calendar-wrapper .date a {
+  width: 50%;
+  height: auto;
+}
+
+.calendar-wrapper .date a .am {
+  background: #4d97cc;
+  height: 110px;
+}
+
+.calendar-wrapper .date a .pm {
+  background: #54a5e0;
+  height: 110px;
+}
+
+.calendar-wrapper .inactive a .am {
+  background: #a5c8e1;
+  height: 110px;
+}
+
+.calendar-wrapper .inactive a .pm {
+  background: #a8cfea;
+  height: 110px;
+}
+
+.calendar-wrapper .inactive .date .date-num {
+  color: #ffffff52;
+}
+
+.calendar-wrapper .date .date-num {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: xx-large;
+  font-weight: 800;
+}
+
+.calendar-wrapper .day-name > div {
+  width: 100%;
+  text-align: center;
+  border-right: 2px solid white;
+  border-left: 1px solid white;
+  border-bottom: 2px solid white;
+  background-color: #5f5f5f;
+  color: white;
+  padding: 6px 0px;
+}
+
+.calendar-wrapper .calendar-month {
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 47px;
+  color: #5f5f5f;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.calendar-wrapper .calendar-form .form-select:focus {
+  box-shadow: none;
+}
+
+.calendar-wrapper .calendar-form .calendar-btn {
+  border: 1px solid #ced4da;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.calendar-wrapper .calendar-form .calendar-btn i {
+  color: 1px solid #5f5f5f;
+  font-size: 1rem;
+}
+
+@media (max-width: 575px) {
+  .flex-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100%;
+    margin: 1px;
+    /* height: 100px; */
+  }
+
+  .calendar-wrapper .day-name-wrapper {
+    display: none;
+    background-color: #5f5f5f;
+  }
+
+  .calendar-wrapper .day .day-title {
+    position: relative;
+    width: 100%;
+    background-color: #426c8b;
+  }
+  .calendar-wrapper .day .day-title h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+  }
+}
